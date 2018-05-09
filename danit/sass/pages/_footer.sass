@@ -1,0 +1,28 @@
+.footer
+    background-image: url('https://dan-it.com.ua/wp-content/uploads/2017/04/dan-bg.jpg')
+    background-repeat: no-repeat
+    background-size: cover
+    background-attachment: fixed
+    background-position: center center
+    margin-left: 0px
+    margin-right: 0px
+    position: relative
+    z-index: 0
+    &::before
+        content: ''
+        width: 100%
+        height: 100%
+        position: absolute
+        top: 0
+        left: 0
+        z-index: 1
+        opacity: .4
+        background: repeating-linear-gradient(90deg, #5a9d93, transparent  .1em, transparent .5em, #5a9d93 .1em)
+
+    &__wrapper
+        padding: 20px 0
+        text-align: center
+        color: #fff
+    &__descr
+        z-index: 2
+        font-weight: 400

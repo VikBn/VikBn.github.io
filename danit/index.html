@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-select.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/media.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dan IT</title>
+</head>
+<body class="page">
+    <div class="page__wrap">
+        <!-- preloader -->
+        <div id="p_prldr"><div class="contpre"><span class="svg_anm"></span><br>Подождите<br><small>идет загрузка</small></div></div>
+
+        <nav class="navbar navbar-inverse header__nav" data-spy="affix" data-offset-top="205">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class=" header__toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar header__bar"></span>
+                <span class="icon-bar header__bar"></span>
+                <span class="icon-bar header__bar"></span>
+              </button>
+              <a class="navbar-brand header__brand " href="#"><img class="" src="https://dan-it.com.ua/wp-content/uploads/2017/03/DAN_IT_Logo_150px.png" width="150" height="44" alt="DAN_IT_Logo_150px"></a></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li class="header__item">
+                    <a href="tel:(044) 290-22-44" class="header__anchor">
+                        <img src="img/svg/phone-volume.svg" alt="phone">
+                        <span class="header__phone">(044) 290-22-44</span>
+                    </a>
+                </li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="header__item">
+                    <a class="nav-link header__anchor scroll_to" href="#" data-section="#about"><span class="header__link">О нас</span></a>
+                </li>
+                <li class="header__item">
+                    <li class="header__item">
+                    <a class="nav-link header__anchor" id="programs" href="javascript:void(0)"><span class="header__link">Программы</span></a>
+                    <div class="header__progarms">
+                        <a class="header__programs-link" href="stack.html" ><span class="header__link">Full Stack</span></a>
+                        <a class="header__programs-link" href="english.html" ><span class="header__link">Business English</span></a>
+                        <a class="header__programs-link" href="front.html" ><span class="header__link">Front End</span></a>
+                        <a class="header__programs-link" href="user.html" ><span class="header__link">Interaction design (UI/UX)</span></a>
+                    </div>
+                </li>
+                </li>
+                <li class="nav-item header__item">
+                  <a class="nav-link header__anchor" href="events.html"><span class="header__link">События</span></a>
+                </li>
+                <li class="nav-item header__item">
+                  <a class="nav-link header__anchor" href="blog.html"><span class="header__link">Блог</span></a>
+                </li>
+                <li class="nav-item header__item">
+                  <a class="nav-link header__anchor scroll_to" href="#" data-section="#contact"><span class="header__link">Контакты</span></a>
+                </li>
+                <li class="header__item">
+                    <div class="nav-item header__langs">
+                        <div class="dropdown">
+                          <button class="btn btn-primary dropdown-toggle header__btn" type="button" data-toggle="dropdown">
+                              RU
+                          <span class=""></span></button>
+                          <ul class="dropdown-menu">
+                            <li><a class="header__drop-link" href="#">UA</a></li>
+                            <li><a class="header__drop-link" href="#">EN</a></li>
+                          </ul>
+                        </div>
+                    </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="content">
+            <div class="content__inner">
+
+                <!-- Start -->
+                <div class="dan__start-wrapper" id="start">
+
+                    <div class="video__bg">
+                        <video class="dan__start-video" autoplay loop muted>
+                          <source src="https://dan-it.com.ua/wp-content/video/dan-video-bg-3.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                          <source src="libs/dan.ogv" type='video/ogg; codecs="theora, vorbis"'>
+                          <source src="libs/dan.webm" type='video/webm; codecs="vp8, vorbis"'>
+                          Тег video не поддерживается вашим браузером.
+                         </video>
+                    </div>
+
+                    <div class="container dan__start-container">
+                        <div class="dan__start-inner">
+                            <div class="col-md-8 dan__start-content">
+                                <div class="dan__start-block">
+                                    <h1 class="dan__start-text">мечтаешь стать одним из лучших IT — специалистов?</h1>
+                                </div>
+                                <div class="dan__start-block">
+                                    <p class="dan__start-descr">РЕГИСТРИРУЙСЯ НА БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ И ТЕСТИРОВАНИЕ.</p>
+                                    <p class="dan__start-descr">ВЫБИРАЙ ПРОГРАММУ ОБУЧЕНИЯ И НАЧНИ СВОЙ ПУТЬ В СФЕРЕ IT.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xs-12">
+                                <h2 class="dan__start-reg">Регистрируйся сейчас!</h2>
+                                <div class="dan__start-form">
+                                    <form class="form-main">
+                                      <div class="form-group">
+                                        <input type="text" class="form-control dan__start-input" placeholder="ФИО" required>
+                                      </div>
+                                      <div class="form-group">
+                                        <input type="tel" id="phone"  class="form-control dan__start-input" placeholder="НОМЕР ТЕЛЕФОНА" required>
+                                      </div>
+                                      <div class="form-group">
+                                        <input type="email" class="form-control dan__start-input" placeholder="E-mail" required>
+                                      </div>
+                                      <div class="form-group">
+                                          <label class="dan__start-label" for="sel1">Выбрать программу:</label>
+                                       <select class="form-control selectpicker" id="sel1" name="category">
+                                           <option>Full Stack</option>
+                                           <option>Bussiness English</option>
+                                           <option>Front End</option>
+                                           <option>Interaction design(UI/UX)</option>
+                                       </select>
+                                     </div>
+                                      <button type="submit" class="btn btn-primary btn-block dan__start-btn">РЕГИСТРАЦИЯ</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Advantages -->
+                <section class="advantages post" id="advan">
+                    <div class="container">
+                        <div class="advantages__top">
+                            <h2 class="page__title">Наши преимущества</h2>
+                        </div>
+                        <div class="advantages__inner animated">
+                            <div class="row">
+                                <div class="col-md-4 advantages__item">
+                                    <div class="advantages__col-inner">
+                                        <div class="advantages__img-inner">
+                                            <img width="100px" height="100px" src="https://dan-it.com.ua/wp-content/uploads/2017/05/israel-flag.svg" class="vc_single_image-img attachment-thumbnail" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="advantages__col-content">
+                                        <div>
+                                            <h4 class="advantages__col-title" >
+                                                <strong>Израильская методика </strong>
+                                            </h4>
+                                            <p class="advantages__descr">Обучение программированию по стандартам IT-подразделения израильской армии: решение конкретных задач, командная работа, система поддержки и менторства на протяжении всей программы</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 advantages__item">
+                                    <div class="advantages__col-inner">
+                                        <div class="advantages__img-inner">
+                                            <img width="100px" height="100px" src="https://dan-it.com.ua/wp-content/uploads/2017/05/computer-and-books-studying-tools.svg" class="" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="advantages__col-content">
+                                        <div>
+                                            <h4 class="advantages__col-title" >
+                                                <strong>Наполнение курса</strong>
+                                            </h4>
+                                            <p class="advantages__descr">Технические модули подготовки, а также финальные проекты в виде потенциальных стартапов, развитие soft-skills, изучение английского языка, воркшопы и мастер-классы от зарубежных экспертов</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 advantages__item">
+                                    <div class="advantages__col-inner">
+                                        <div class="advantages__img-inner">
+                                            <img width="100px" height="100px" src="https://dan-it.com.ua/wp-content/uploads/2017/05/smart-worker.svg" class="" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="advantages__col-content">
+                                        <div>
+                                            <h4 class="advantages__col-title" >
+                                                <strong>Наблюдательный совет</strong>
+                                            </h4>
+                                            <p class="advantages__descr">Приглашенные специалисты из ведущих IT-компаний, которые вносят правки в программу в соответствии с потребностями рынка Украины, и являются потенциальными работодателями для наших выпускников</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="advantages__foot">
+                        <div  class="" style="height: 75px; top: 0px; bottom: auto; z-index: 1;">
+                            <div class="" data-random="8852335" data-height="75" data-position="top" style="height: 75px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class=" " width="100%" height="75" fill="#ffffff" viewBox="0 0 100 10" preserveAspectRatio="none" style="height: 75px; width: 100%;">
+                                    <path fill="#ffffff" d="M-0.3,0l50.2,10L100,0H-0.3z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Offer -->
+                <section class="offer" id="offer">
+                    <div class="offer__wrapper animated">
+                        <div class="container">
+                            <div class="offer__top">
+                                <h3 class="offer__title">Что мы предлагаем</h3>
+                            </div>
+                            <div class="offer__inner">
+                                <ul class="offer__ul">
+                                    <li class="offer__li">
+                                        <div class="offer__li-top">
+                                            <strong>Курсы программирования с нуля</strong>
+                                        </div>
+                                        <div>
+                                            Даже если ты никогда раньше не посещал IT курсы, не занимался программированием и не получал технического образования, при должном желании у тебя получится пройти наш курс. Мечтал сменить профессию? Благодаря четкой программе, даже закоренелые гуманитарии вольются в учебный процесс без особых проблем.
+                                        </div>
+                                    </li>
+                                    <li class="offer__li">
+                                        <div class="offer__li-top">
+                                            <strong>МОТИВАЦИЯ И ГРУППОВАЯ РАБОТА</strong>
+                                        </div>
+                                        <div>
+                                            Благодаря двухэтапному отбору кандидатов на обучение, мы формируем группы мотивированных, амбициозных и целеустремленных студентов. Занимаясь в командах по 2-5 человек, они пошагово достигают высоких результатов в работе над проектами, и на выходе гарантированно становятся первоклассными специалистами.
+                                        </div>
+                                    </li>
+                                    <li class="offer__li">
+                                        <div class="offer__li-top">
+                                            <strong>СИСТЕМА ЗАНЯТИЙ FLIPPED CLASSROOM</strong>
+                                        </div>
+                                        <div>
+                                            Начитки лекций не будет. Мы покажем тебе, где найти материал, и ты сам освоишь теорию по видео и инструкциям. В классе будет только практика, и ничего, кроме практики. Тебе также будет открыта онлайн-система для выполнения домашних заданий c постоянным доступом ко всем нужным материалам.
+                                        </div>
+                                    </li>
+                                    <li class="offer__li">
+                                        <div class="offer__li-top">
+                                            <strong>РАЗВИТИЕ SOFT SKILLS</strong>
+                                        </div>
+                                        <div>
+                                            Личный ментор не только станет помогать тебе на протяжении всего периода обучения, но и будет курировать твой финальный проект. К нему всегда можно обратиться при подготовке к занятиям, задать интересующий вопрос и обсудить практические кейсы, с которыми ты начнешь работать с первого урока в DAN.IT education.
+                                        </div>
+                                    </li>
+                                    <li class="offer__li">
+                                        <div class="offer__li-top">
+                                            <strong>МЕНТОРСТВО И ПОДДЕРЖКА</strong>
+                                        </div>
+                                        <div>
+                                            Личный ментор не только станет помогать тебе на протяжении всего периода обучения, но и будет курировать твой финальный проект. К нему всегда можно обратиться при подготовке к занятиям, задать интересующий вопрос и обсудить практические кейсы, с которыми ты начнешь работать с первого урока в DAN.IT education.
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="offer__foot" style="height: 75px; top: auto; bottom: 0px; z-index: 1;">
+                        <div class="" data-random="8852335" data-height="75" data-position="bottom" style="height: 75px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class=" " width="100%" height="75" fill="#ffffff" viewBox="0 0 100 10" preserveAspectRatio="none" style="height: 75px; width: 100%;">
+                                <path fill="#ffffff" d="M0,0h100v9.9L50,0L0,9.9"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- About -->
+                <section class="about" id="about">
+                    <div class="about__wrapper animated">
+                        <div class="container">
+                            <div class="about__top">
+                                <h2 class="page__title"><strong>Кто мы</strong></h2>
+                            </div>
+                            <div class="about__inner">
+                                <div class="about__col">
+                                    <p class="about__desr">Учебный центр DAN.IT education реализует уникальный формат подготовки IT-специалистов, который используется в армии Израиля. Мы находимся в Киеве, поэтому вам не нужно выезжать за границу для получения качественного образования.</p>
+                                    <p class="about__desr">Инициатором открытия DAN.IT education является Эран Лассер. В прошлом он занимал руководящую должность в израильском центре армейской IT-подготовки Mamram. После окончания службы Эран создал частный институт John Bryce Training, чтобы воплощать полученный опыт в гражданском секторе. Сегодня John Bryce Training занимает более 70% израильского IT-рынка и имеет филиалы в Венгрии, Китае и Турции. В Украине DAN.IT education выступит аналогом такого центра.</p>
+                                    <p class="about__desr">Мы адаптируем израильскую методику Telem, призванную работать над сильными сторонами каждого студента, пониманием его мотивации. Это обучение программированию на основе кейсов и практических занятий без скучных лекций и бесполезной траты времени. Мы также формируем Наблюдательный совет, куда приглашаем экспертов в области IT, знающих, чего хочет рынок, и на протяжении года готовим студентов к вызовам и трудностям будущей работы web-программистом.</p>
+                                </div>
+                                <div class="about__back-img"><strong>dan.it</strong></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Group -->
+                <section class="group" id="group">
+                    <div class="group__wrapper animated">
+                        <div class="container">
+
+                            <div class="row ">
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 group__it">
+                                    <div class="group__images">
+                                        <img class="group__icon group__img-before group__active" src="https://dan-it.com.ua/wp-content/uploads/2017/05/эран.jpg" alt="эран">
+                                        <img class="group__icon group__img-after" src="https://dan-it.com.ua/wp-content/uploads/2017/05/eran_3.jpg"  alt="eran_3"  >
+                                    </div>
+                                    <div class="group__info">
+                                        <h4 class="group__name">Эран Лассер</h4>
+                                        <p class="group__position">Co-founder</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 group__it">
+                                    <div class="group__images">
+                                        <img class="group__icon group__img-before group__active" src="https://dan-it.com.ua/wp-content/uploads/2017/05/eddi_2-1.jpg"  alt="эран">
+                                        <img class="group__icon group__img-after" src="https://dan-it.com.ua/wp-content/uploads/2017/05/eddi_3.jpg"  alt="eran_3"  >
+                                    </div>
+                                    <div class="group__info">
+                                        <h4 class="group__name">Эдди Прилепски</h4>
+                                        <p class="group__position">Co-founder</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 group__it">
+                                    <div class="group__images">
+                                        <img class="group__icon group__img-before group__active" src="https://dan-it.com.ua/wp-content/uploads/2017/05/X2A2032.jpg"  alt="Деркач">
+                                        <img class="group__icon group__img-after" src="https://dan-it.com.ua/wp-content/uploads/2017/05/Vova_2.jpg"  alt="Деркач"  >
+                                    </div>
+                                    <div class="group__info">
+                                        <h4 class="group__name">Владимир Деркач</h4>
+                                        <p class="group__position">CTO</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 group__it">
+                                    <div class="group__images">
+                                        <img class="group__icon group__img-before group__active" src="https://dan-it.com.ua/wp-content/uploads/2017/05/dasha.jpg"  alt="Дария">
+                                        <img class="group__icon group__img-after" src="https://dan-it.com.ua/wp-content/uploads/2017/05/dasha_2.jpg"  alt="Дария"  >
+                                    </div>
+                                    <div class="group__info">
+                                        <h4 class="group__name">Дария Обревко</h4>
+                                        <p class="group__position">Course Coordinator</p>
+                                    </div>
+                                </div>
+                            <div class="row ">
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 group__it">
+                                    <div class="group__images">
+                                        <img class="group__icon group__img-before group__active" src="https://dan-it.com.ua/wp-content/uploads/2017/05/Daniel-Anderson.jpg"  alt="Даниель">
+                                        <img class="group__icon group__img-after" src="https://dan-it.com.ua/wp-content/uploads/2017/05/Daniel-Anderson2.jpg"  alt="Даниель"  >
+                                    </div>
+                                    <div class="group__info">
+                                        <h4 class="group__name">Даниель Андерсон</h4>
+                                        <p class="group__position">program developer</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 group__it">
+                                    <div class="group__images">
+                                        <img class="group__icon group__img-before group__active" src="https://dan-it.com.ua/wp-content/uploads/2017/05/Katerina-Meison.jpg"  alt="Катерина">
+                                        <img class="group__icon group__img-after" src="https://dan-it.com.ua/wp-content/uploads/2017/05/Katerina-Meison2.jpg"  alt="Катерина"  >
+                                    </div>
+                                    <div class="group__info">
+                                        <h4 class="group__name">Катерина Майсони</h4>
+                                        <p class="group__position">Head of HR</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 group__it">
+                                    <div class="group__images">
+                                        <img class="group__icon group__img-before group__active" src="https://dan-it.com.ua/wp-content/uploads/2017/05/Alex-Voitenko.jpg"  alt="Алекс">
+                                        <img class="group__icon group__img-after" src="https://dan-it.com.ua/wp-content/uploads/2017/05/Alex-Voitenko2.jpg"  alt="Алекс"  >
+                                    </div>
+                                    <div class="group__info">
+                                        <h4 class="group__name">Алекс Войтенко</h4>
+                                        <p class="group__position">Head of UI/UX course</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 group__it">
+                                    <div class="group__images">
+                                        <img class="group__icon group__img-before group__active" src="https://dan-it.com.ua/wp-content/uploads/2017/05/Julia-Shtaltovna.jpg"  alt="Юлия">
+                                        <img class="group__icon group__img-after" src="https://dan-it.com.ua/wp-content/uploads/2017/05/Julia-Shtaltovna2.jpg"  alt="Юлия"  >
+                                    </div>
+                                    <div class="group__info">
+                                        <h4 class="group__name">Юлия Шталтовная</h4>
+                                        <p class="group__position">Head of Soft-skills</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                     </div>
+                    </div>
+                </section>
+
+                <!-- Education -->
+                <section class="education" id="educ">
+                    <div class="education__wrapper animated">
+                        <div class="container">
+                            <div class="education__top">
+                                <h2 class="page__title">Программы обучения</h2>
+                            </div>
+                            <div class="education__inner">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="education__item education__rounded" style="background-color: rgb(54, 11, 147);">
+                                            <a href="https://dan-it.com.ua/program/full-stack/">
+                                                <div class="education__item-overlay" style="background-image: url('https://dan-it.com.ua/wp-content/uploads/2017/11/shutterstock_524316091-wpcf_555x300.jpg');"></div>
+                                                <div class="education__item-heading">
+                                                    <h2 class="education__item-title">Full Stack</h2>
+                                                    <span class="education__item-small"> Старт группы <br> 25.04.2018 </span>
+                                                    <span class="education__item-info"> 470 часов <br> 25 человек </span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="education__item education__rounded" style="background-color: rgb(23, 109, 89);">
+                                            <a href="https://dan-it.com.ua/program/full-stack/">
+                                                <div class="education__item-overlay" style="background-image: url('https://dan-it.com.ua/wp-content/uploads/2017/11/eng-wpcf_555x300.jpg');"></div>
+                                                <div class="education__item-heading">
+                                                    <h2 class="education__item-title">Business English</h2>
+                                                    <span class="education__item-small"> Старт группы <br>  02.04.2018  </span>
+                                                    <span class="education__item-info">  50 часов  <br>  8 человек  </span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="education__item education__rounded" style="background-color: rgb(63, 81, 181);">
+                                            <a href="https://dan-it.com.ua/program/full-stack/">
+                                                <div class="education__item-overlay" style="background-image: url('https://dan-it.com.ua/wp-content/uploads/2017/12/FE-2-wpcf_555x300.jpg');"></div>
+                                                <div class="education__item-heading">
+                                                    <h2 class="education__item-title">Front End</h2>
+                                                    <span class="education__item-small"> Старт группы <br> 16.05.2018 </span>
+                                                    <span class="education__item-info"> 230 часов <br> 25 человек </span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="education__item education__rounded" style="background-color: rgb(150, 5, 163);">
+                                            <a href="https://dan-it.com.ua/program/full-stack/">
+                                                <div class="education__item-overlay" style="background-image: url('https://dan-it.com.ua/wp-content/uploads/2017/12/1-1-wpcf_555x300.jpg');"></div>
+                                                <div class="education__item-heading">
+                                                    <h2 class="education__item-title">Interaction design (UI/UX)</h2>
+                                                    <span class="education__item-small"> Старт группы <br>  24.04.2018  </span>
+                                                    <span class="education__item-info">  200 часов  <br>  25 человек  </span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Enter -->
+                <section class="enter" id="enter">
+                    <div class="enter__wrapper animated">
+                        <div class="container">
+                            <div class="enter__top">
+                                <h2 class="page__title">Поступить за 4 шага</h2>
+                            </div>
+                            <div class="enter__inner">
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-3">
+                                        <div class="enter__icon">
+                                            <i class="far fa-comments fa-5x enter__fa"></i>
+                                        </div>
+                                        <div class="enter__text">
+                                            <h3 class="enter__num">1</h3>
+                                            <p class="enter__descr">Записаться на консультацию по телефону или заполнив форму на сайте</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-3">
+                                        <div class="enter__icon">
+                                            <i class="fa fa-paperclip fa-5x enter__fa" ></i>
+                                        </div>
+                                        <div class="enter__text">
+                                            <h3 class="enter__num">2</h3>
+                                            <p class="enter__descr">Прийти на консультацию с менеджером и выбрать подходящую программу обучения</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-3">
+                                        <div class="enter__icon">
+                                            <i class="fa fa-graduation-cap fa-5x enter__fa"></i>
+                                        </div>
+                                        <div class="enter__text">
+                                            <h3 class="enter__num">3</h3>
+                                            <p class="enter__descr">Пройти тестирование и подать документы.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-3">
+                                        <div class="enter__icon-last">
+                                            <i class="fa fa-check fa-5x enter__fa"></i>
+                                        </div>
+                                        <div class="enter__text">
+                                            <h3 class="enter__num">4</h3>
+                                            <p class="enter__descr">Поздравляем! Ты принят в DAN.IT education. Осталось только посетить первый урок и начать обучение</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Consult -->
+                <div class="dan__consult-wrapper animated" id="consult">
+                        <div class="dan__consult-top">
+                            <div class="container-fluid">
+                                <h2 class="page__title">Записаться на консультацию</h2>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="dan__consult-inner">
+                                <div>
+                                    <form class="dan__consult-form">
+                                        <div class="dan__consult-row">
+                                            <div class="col-md-8 col-sm-12 col-xs-12">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="dan__consult-label" for="email">ФИО</label>
+                                                            <input type="text" class="form-control dan__consult-input" id="" placeholder="Иван Иванов" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="dan__consult-label" for="email">Ваш e-mail</label>
+                                                            <input type="email" class="form-control dan__consult-input" id="email" placeholder="ivanov@gmail.com" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="dan__consult-label" for="phone2">Номер телефона</label>
+                                                            <input type="tel" class="form-control dan__consult-input" id="phone2" placeholder="(097) 777-77-77" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="dan__start-label" for="sel2">Выбрать программу:</label>
+                                                            <select class="form-control dan__consult-input selectpicker" id="sel2" required>
+                                                                <option>Full Stack</option>
+                                                                <option>Bussiness English</option>
+                                                                <option>Front End</option>
+                                                                <option>Interaction design(UI/UX)</option>
+                                                              </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-4 col-sm-12 col-xs-12">
+                                                <input class="dan__consult-submit" type="submit" name="" value="Записаться">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="dan__consult-foot">
+                                    <p class="dan__consult-descr">Поспешите записаться&nbsp;на бесплатную консультацию и тестирование на определение вашей склонности к программированию.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- Receive -->
+                <section class="receive" id="receive">
+                    <div class="receive__wrapper animated">
+                        <div class="container">
+                            <div class="receive__top">
+                                <h3 class="page__title">Что получают наши студенты</h3>
+                            </div>
+                            <div class="receive__inner">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12 ">
+                                        <div class="receive__item">
+                                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                                <div class="receive__icon">
+                                                    <figure class="receive__figure">
+                                                        <img class="receive__img" src="https://dan-it.com.ua/wp-content/uploads/2017/05/presentation.svg" width="70px" height="70px" alt="presentation" title="presentation">
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-10 col-sm-10 col-xs-12">
+                                                <div class="receive__text">
+                                                    <p class="receive__descr">Поддержку личного ментора, который поможет с решением заданий и даст ответы на любые вопросы</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="receive__item">
+                                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                                <div class="receive__icon">
+                                                    <figure class="receive__figure">
+                                                        <img class="receive__img" src="https://dan-it.com.ua/wp-content/uploads/2017/05/curriculum.svg" width="70px" height="70px" alt="presentation" title="presentation">
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-10 col-sm-10 col-xs-12">
+                                                <div class="receive__text">
+                                                    <p class="receive__descr">Помощь в создании профессионального резюме и наполнение его реальными примерами работ по мере прохождения программы</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="receive__item">
+                                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                                <div class="receive__icon">
+                                                    <figure class="receive__figure">
+                                                        <img class="receive__img" src="https://dan-it.com.ua/wp-content/uploads/2017/05/handshake.svg" width="70px" height="70px" alt="presentation" title="presentation">
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-10 col-sm-10 col-xs-12">
+                                                <div class="receive__text">
+                                                    <p class="receive__descr">Содействие в трудоустройстве</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="receive__item">
+                                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                                <div class="receive__icon">
+                                                    <figure class="receive__figure">
+                                                        <img class="receive__img" src="https://dan-it.com.ua/wp-content/uploads/2017/05/agreement.svg" width="70px" height="70px" alt="presentation" title="presentation">
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-10 col-sm-10 col-xs-12">
+                                                <div class="receive__text">
+                                                    <p class="receive__descr">Пробные собеседования на английском языке с моделированием реальных ситуаций</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="receive__item">
+                                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                                <div class="receive__icon">
+                                                    <figure class="receive__figure">
+                                                        <img class="receive__img" src="https://dan-it.com.ua/wp-content/uploads/2017/05/conversation.svg" width="70px" height="70px" alt="presentation" title="presentation">
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-10 col-sm-10 col-xs-12">
+                                                <div class="receive__text">
+                                                    <p class="receive__descr">Обучение техническому и деловому английскому</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="receive__item">
+                                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                                <div class="receive__icon">
+                                                    <figure class="receive__figure">
+                                                        <img class="receive__img" src="https://dan-it.com.ua/wp-content/uploads/2017/05/group.svg" width="70px" height="70px" alt="presentation" title="presentation">
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-10 col-sm-10 col-xs-12">
+                                                <div class="receive__text">
+                                                    <p class="receive__descr">Бесплатное посещение полезных семинаров и воркшопов от ведущих IT-специалистов Израиля и Украины</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="receive__item">
+                                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                                <div class="receive__icon">
+                                                    <figure class="receive__figure">
+                                                        <img class="receive__img" src="https://dan-it.com.ua/wp-content/uploads/2017/05/id-card.svg" width="70px" height="70px" alt="presentation" title="presentation">
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-10 col-sm-10 col-xs-12">
+                                                <div class="receive__text">
+                                                    <p class="receive__descr">Бонусы в виде скидок на занятия в фитнес-центре и посещения ресторана, консультаций диетолога и тренера</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="receive__item">
+                                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                                <div class="receive__icon">
+                                                    <figure class="receive__figure">
+                                                        <img class="receive__img " src="https://dan-it.com.ua/wp-content/uploads/2017/05/businessman.svg" width="70px" height="70px" alt="presentation" title="presentation">
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-10 col-sm-10 col-xs-12">
+                                                <div class="receive__text">
+                                                    <p class="receive__descr">Возможность начать свой стартап уже на стадии финального проекта</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Blog -->
+                <div class="dan__blog-wrapper animated" id="blog">
+                        <div class="container">
+                            <div class="dan__blog-top">
+                                <h3 class="page__title">Последнее в блоге</h3>
+                            </div>
+
+                            <div class="row dan__blog-row">
+
+                                <div class="col-md-4 col-sm-6 col-xs-12 dan__blog-col">
+                                    <div class="dan__blog-item">
+                                        <a class="" href="#">
+                                            <img class="dan__blog-img" src="https://dan-it.com.ua/wp-content/uploads/2018/03/D4S_9156-300x200.jpg" alt="">
+                                            <h5 class="dan__blog-descr">Семинар «Как начать свою карьеру в UI/UX design»</h5>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12 dan__blog-col">
+                                    <div class="dan__blog-item">
+                                        <a class="" href="#">
+                                            <img class="dan__blog-img" src="https://dan-it.com.ua/wp-content/uploads/2018/03/2Z4A0607-300x200.jpg" alt="">
+                                            <h5 class="dan__blog-descr">Семинар на тему «Как попасть в Hi-Tech индустрию и построить успешную карьеру»</h5>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12 dan__blog-col">
+                                    <div class="dan__blog-item">
+                                        <a class="" href="#">
+                                            <img class="dan__blog-img" src="https://dan-it.com.ua/wp-content/uploads/2018/03/D4S_9156-300x200.jpg" alt="">
+                                            <h5 class="dan__blog-descr">Открытый урок по Full Stack</h5>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                <!-- Contacts -->
+                <section class="contacts" id="contact">
+                    <div class="contacts__wrapper animated">
+                        <div class="container">
+                            <div class="contacts__top">
+                                <h3 class="page__title">Контакты</h3>
+                            </div>
+                            <div class="contacts__inner">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="contacts__content">
+                                            <div class="contacts__schedule">
+                                                <strong>График работы</strong>
+                                                <p class="contacts__descr"> пн-пт 10:00 — 21:00</p>
+                                                <p class="contacts__descr"> суб. 10:00 — 16:00</p>
+                                                <p class="contacts__descr">  вс. выходной</p>
+                                            </div>
+                                            <div class="contacts__address">
+                                                <p class="contacts__descr">г. Киев, пр-т Павла Тычины, 1в</p>
+                                                <p class="contacts__descr">ТОЦ «Silver Breeze», офис А, 6-й этаж</p>
+                                                <p class="contacts__descr">тел. (044 ) 290-22-44</p>
+                                                <p class="contacts__descr">office@dan-it.com.ua</p>
+                                            </div>
+                                        </div>
+                                        <div class="contacts__social">
+                                            <div class="contacts__item">
+                                                <figure class="contacts__figure">
+                                                    <a href="https://www.facebook.com/daniteducation/" target="_blank" class="">
+                                                        <img class="vc_single_image-img " src="https://dan-it.com.ua/wp-content/uploads/2017/05/facebook-logo.svg" width="60px" height="60px" alt="facebook-logo" title="facebook-logo">
+                                                    </a>
+                                                </figure>
+                                            </div>
+                                            <div class="contacts__item">
+                                                <figure class="contacts__figure">
+                                                    <a href="https://vk.com/daniteducation" target="_blank" class="">
+                                                        <img class="vc_single_image-img " src="https://dan-it.com.ua/wp-content/uploads/2017/05/vk-social-logotype.svg" width="60px" height="60px" alt="facebook-logo" title="facebook-logo">
+                                                    </a>
+                                                </figure>
+                                            </div>
+                                            <div class="contacts__item">
+                                                <figure class="contacts__figure">
+                                                    <a href="https://www.instagram.com/daniteducation/" target="_blank" class="">
+                                                        <img class="vc_single_image-img " src="https://dan-it.com.ua/wp-content/uploads/2017/05/instagram-logo.svg" width="60px" height="60px" alt="facebook-logo" title="facebook-logo">
+                                                    </a>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <div class="contacts__way">
+                                            <p class="contacts__descr">КАК ДОЕХАТЬ ДО SILVER BREEZE общественным транспортом:</p>
+                                            <p class="contacts__descr">от <strong>м. Левобережная </strong>автобусами № 95, 49, 108; маршрутными микроавтобусами № 177, 178, 249</p>
+                                            <p class="contacts__descr">от <strong> м. Дружбы народов </strong> автобусом № 51; троллейбусом № 50, 43; маршрутными микроавтобусами № 205, 211, 416, 172, 527, 422, 523, 590</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="contacts__map">
+                                            <iframe class="contacts__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.6563544720184!2d30.593224815730654!3d50.42887397947244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x92d5f56a53a2a8e!2z0KLQoNCmIFNpbHZlciBCcmVlemU!5e0!3m2!1sru!2sua!4v1495546049988" frameborder="0"  allowfullscreen=""></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Footer -->
+                <footer class="footer" id="footer">
+                    <div class="footer__wrapper">
+                        <p class="footer__descr">© 2018 Учебная копия сайта "dan.it". Разработка - Бондаренко Виктор</p>
+                    </div>
+                </footer>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/loader.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://rawgit.com/RobinHerbots/jquery.inputmask/3.x/dist/jquery.inputmask.bundle.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/bootstrap-validate.js"></script>
+    <script src="js/validMain.js"></script>
+    <script src="js/animate.js"></script>
+    <script src="js/scroll-to.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        $('.selectpicker').selectpicker({
+            style: 'default',
+            size: 4
+        });
+    </script>
+
+
+</body>
+</html>

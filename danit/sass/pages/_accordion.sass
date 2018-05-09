@@ -1,0 +1,49 @@
+.accordion
+    box-sizing: border-box
+    overflow: hidden
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.25)
+    border-radius: 3px
+    background: #fafafa
+    border: none
+    transition: all .3s
+    position: relative
+    font-size: 16px
+    width: 100%
+    cursor: pointer
+    outline: none
+    &:hover
+        transition: ease .3s
+.accordion-section-title:after
+    content: '\02795'
+    font-size: 13px
+    color: #fff
+    float: right
+    margin-left: 5px
+.active:after
+    content: "\2796"
+.accordion-section-title
+    text-align: center
+    font-weight: bold
+    width: 100%
+    padding: 15px
+    display: inline-block
+    border-bottom: 1px solid #0da89d
+    background: #0ebbac
+    transition: all linear 0.15s
+    font-size: 1.200em
+    text-shadow: 0px 1px 0px #1a1a1a
+    color: #fff
+.accordion-section-title.active, .accordion-section-title:focus, .accordion-section-title:hover
+    background: #0da89d
+    color: #fff
+    text-decoration: none
+
+.accordion-section:last-child .accordion-section-title
+    border-bottom: none
+
+/*----- Section Content -----*/
+.accordion-section-content
+    padding: 30px
+    display: none
+.content__open
+    display: block

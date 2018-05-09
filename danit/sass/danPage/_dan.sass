@@ -1,0 +1,450 @@
+@import "../pages/header"
+@import "../pages/contacts"
+@import "../pages/footer"
+@import "../pages/global"
+
+/*  start */
+
+.dan
+    &__start
+        &-wrapper
+            position: relative
+            overflow: hidden
+            &::before
+                content: ''
+                width: 100%
+                height: 100%
+                position: absolute
+                top: 0
+                left: 0
+                z-index: 2
+                opacity: .2
+                background: repeating-linear-gradient(90deg, #437d98, transparent  .1em, transparent .5em, #437d98 .1em)
+            &::after
+                content: ''
+                position: absolute
+                width: 100%
+                height: 100%
+                top: 0
+                left: 0
+                background: #111
+                opacity: .7
+        &-container
+            padding-bottom: 50px
+        &-inner
+            z-index: 3
+            display: flex
+            align-items: center
+            justify-content: space-between
+            flex-wrap: wrap
+            position: relative
+            padding: 130px 0
+        &-text
+            font-size: 37px
+            text-transform: uppercase
+            color: #fff
+        &-descr
+            margin: 0
+            font-size: 20px
+            color: #fff
+            font-weight: bold
+        &-label
+            color: #fff
+        &-reg
+            font-size: 36px
+            text-align: center
+            color: #fff
+        &-input
+            opacity: .8
+            height: 40px
+        &-form
+            padding-left: 10px
+        &-block
+            margin-bottom: 40px
+        &-btn
+            background: linear-gradient(to right, #01d2a8, #0fbaad)
+            border: none
+            height: 40px
+            transition: all .7s
+            &:hover
+                background: linear-gradient(to right, #0fbaad, #01d2a8 )
+                transition: all .7s
+            &:focus
+                background: linear-gradient(to right, #01d2a8, #0fbaad)
+
+.form-control::placeholder
+    color: gray
+    font-weight: 400
+
+.has-error-email
+    color: #fff !important
+
+.video__bg
+    position: absolute
+    width: auto
+    height: 100%
+
+
+/*  advantages */
+.advantages
+    overflow: hidden
+    position: relative
+    &__inner
+        opacity: 0
+    &__foot
+        background-image: url("https://dan-it.com.ua/wp-content/uploads/2017/04/dan-bg.jpg")
+        &::before
+            content: ''
+            width: 100%
+            height: 100%
+            position: absolute
+            top: 0
+            left: 0
+            z-index: 0
+            opacity: .1
+            background: repeating-linear-gradient(90deg, #fff, transparent  .1em, transparent .5em, #fff .1em)
+    &__img-inner
+        text-align: center
+    &__col
+        &-content
+        &-title
+            text-align: center
+            color: #529a94
+            font-size: 18px
+            text-transform: uppercase
+    &__descr
+        color: #6c6c6c
+        font-size: 16px
+        font-weight: 300
+        line-height: 1.5
+        text-align: center
+    &__line
+         position: absolute
+         bottom: 0
+         left: 0
+         width: 100%
+         height: 100px
+         overflow: hidden
+         &::before
+           content: ''
+           display: block
+           width: 130%
+           height: 100px
+           background-color: red
+           position: absolute
+           top: 0
+           left: 0
+           transform: rotate(-1deg) translateY(-85%)
+
+/*  offer */
+
+.offer
+    background-image: url('https://dan-it.com.ua/wp-content/uploads/2017/04/dan-bg.jpg')
+    position: relative
+    z-index: 1
+    &::before
+        content: ''
+        width: 100%
+        height: 100%
+        position: absolute
+        top: 0
+        left: 0
+        z-index: 0
+        opacity: .1
+        background: repeating-linear-gradient(90deg, #fff, transparent  .1em, transparent .5em, #fff .1em)
+    &__top
+        padding: 30px 0
+    &__wrapper
+        opacity: 0
+    &__title
+        color: #fff
+        text-align: center
+        text-transform: uppercase
+    &__li
+        color: #fff
+        list-style-type: none
+        position: relative
+        margin-bottom: 30px
+        &::before
+            content: ""
+            display: block
+            background-image: url(https://dan-it.com.ua/wp-content/themes/bogdan/icons/check.png)
+            background-size: contain
+            width: 32px
+            height: 32px
+            position: absolute
+            left: -50px
+    &__li-top
+        margin-bottom: 5px
+    &__foot
+        transform: rotateX(180deg)
+
+/*  about */
+
+.about
+    &__wrapper
+        opacity: 0
+    &__inner
+        position: relative
+    &__desr
+        color: #6c6c6c
+        margin-bottom: 15px
+    &__back-img
+        position: absolute
+        font-size: 550px
+        text-transform: uppercase
+        top: -20px
+        left: -200px
+        z-index: -1
+        color: #f6f6f6
+        font-weight: bold
+
+/*  group */
+.group
+    margin-top: 50px
+    &__wrapper
+        opacity: 0
+    &__images
+        border: 10px solid #f5f5f5
+        overflow: hidden
+        border-radius: 50%
+        margin-top: 20px
+    &__wrapper
+        padding-bottom: 40px
+    &__icon
+        width: 100%
+    &__img
+        width: 100%
+        list-style: none
+        border: 10px solid #f5f5f5
+        border-radius: 50%
+        overflow: hidden
+        &-before
+            display: none
+        &-after
+            z-index: -1
+            top: 10px
+            opacity: 1
+            display: none
+    &__name
+        font-size: 30px
+        color: #0dbcac
+        text-align: center
+        margin-bottom: 0
+    &__position
+        text-align: center
+        text-transform: uppercase
+        color: #999
+        font-weight: bold
+        font-size: 18px
+    &__row
+        margin-top: 70px
+    &__active
+        display: block
+
+/*  education */
+.education
+    &__wrapper
+        opacity: 0
+    &__inner
+        padding: 50px 0
+    &__heading
+        position: absolute
+        bottom: 20px
+        left: 10%
+        width: 80%
+        color: #fff
+    &__item
+        position: relative
+        width: 100%
+        height: 300px
+        margin: 10px 0 50px!important
+        transform: rotateX(2.22deg) rotateY(-9.27deg)
+        transform-style: preserve-3d
+        transition-duration: 0.1s
+        transition-timing-function: ease !important
+        border: none
+        overflow: hidden
+        -webkit-box-shadow: 0 66px 85px -10px rgba(0,0,0,.3)
+        box-shadow: 0 66px 85px -10px rgba(0,0,0,.3)
+        border-radius: 8px
+        &-overlay
+            position: absolute
+            left: 0
+            top: 0
+            width: 100%
+            height: 100%
+            background-size: cover
+            background-position: center center
+            background-repeat: no-repeat
+            mix-blend-mode: lighten
+            opacity: 0.3
+        &-heading
+            position: absolute
+            bottom: 20px
+            left: 10%
+            width: 80%
+            color: #fff
+        &-title
+            font-weight: 500
+        &-small
+            display: inline-block
+            margin-bottom: 5px
+            text-transform: uppercase
+            font-size: 14px
+            transform: translateZ(60px)
+        &-info
+            float: right
+            text-align: right
+            display: inline-block
+            text-transform: uppercase
+            font-size: 14px
+            transform: translateZ(60px)
+
+/*  enter */
+.enter
+    &__icon
+        width: 165px
+        height: 165px
+        border: 3px solid #00d2a8
+        border-radius: 50%
+        margin: 0 auto
+        display: flex
+        align-items: center
+        justify-content: center
+        transition: all .3s
+        position: relative
+        &-last
+            width: 160px
+            height: 160px
+            border: 3px solid #00d2a8
+            border-radius: 50%
+            margin: 0 auto
+            display: flex
+            align-items: center
+            justify-content: center
+            transition: all .3s
+            position: relative
+            &:hover
+                background: #00d2a8
+                transition: all .3s
+                &:hover .enter__fa
+                    color: #fff
+        &:hover
+            background: #00d2a8
+            transition: all .3s
+        &:hover .enter__fa
+            color: #fff
+    &__text
+        text-align: center
+        margin: 15px 0
+    &__num
+        font-size: 18px
+        font-weight: 700
+        color: #4e4e4e
+    &__descr
+        font-size: 18px
+        font-weight: 100
+    &__fa
+        color: #00d2a8
+
+
+/*  receive */
+.receive
+    &__wrapper
+        opacity: 0
+    &__descr
+        font-size: 18px
+        font-weight: lighter
+        margin-bottom: 15px
+    &__item
+        display: flex
+        flex-wrap: wrap
+        align-items: center
+        margin-top: 20px
+
+    &__text
+        margin: 5px 0 0 25px
+
+/*  blog */
+.dan
+    &__blog
+        &-item
+            background: #f4f4f4
+            border-radius: 3px
+            height: 100%
+            transition: all .2s
+            &:hover
+                box-shadow: 0 0 10px rgba(0,0,0,0.5)
+                transition: all .2s
+        &-row
+            display: flex
+            justify-content: center
+            flex-wrap: wrap
+        &-img
+            width: 100%
+        &-descr
+            padding: 15px
+            text-decoration: none
+        &-col
+            padding-top: 20px
+    &__consult
+        &-wrapper
+            background-image: url('https://dan-it.com.ua/wp-content/uploads/2017/04/dan-bg.jpg')
+            background-repeat: no-repeat
+            background-size: cover
+            background-attachment: fixed
+            background-position: center center
+            padding-bottom: 15px
+            position: relative
+            z-index: 1
+            overflow: hidden
+            padding-bottom: 60px
+        &-top
+            background: #fff
+            padding-bottom: 5px
+            margin-bottom: 15px
+        &-title
+            font-size: 32px
+            margin-left: 15px
+            color: #fff
+            font-weight: bold
+            text-transform: uppercase
+        &-label
+            color: #fff
+            font-size: 18px
+            font-weight: 300
+            margin-bottom: 2px
+        &-descr
+            color: #fff
+            margin: 0
+            font-size: 18px
+            padding-left: 15px
+            font-weight: lighter
+        &-foot
+            margin-top: 20px
+        &-submit
+            width: 100%
+            height: 130px
+            background: #fff
+            font-size: 30px
+            font-weight: bold
+            color: #08d0a9
+            text-transform: uppercase
+            margin-top: 15px
+            border: none
+            border-radius: 3px
+            cursor: pointer
+            transition: all .3s
+            &:hover
+                background: #08d0a9
+                color: #fff
+                transition: all .3s
+        &-row
+            display: flex
+            flex-wrap: wrap
+            align-items: center
+        &-input
+            height: 40px
+            color: gray
+            font-weight: 400

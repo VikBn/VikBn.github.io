@@ -1,0 +1,78 @@
+.page
+    font-family: 'PT Serif', serif
+    font-size: 16px
+    overflow-x: hidden
+    &__btn
+        width: 273px
+        height: 72px
+        background-color: #ffb18b
+        border: none
+        border-radius: 5px
+        color: #ffffff
+        cursor: pointer
+        font-weight: bold
+        outline: none
+        transition: .3s
+        text-transform: uppercase
+        &:hover
+            box-shadow: 0 0 10px rgba(0,0,0,0.5)
+            border: 2px solid #ffb18b
+            transition: .3s
+    &__fa
+        color: #808369
+    &__top
+        background-image: url('../img/vectors/vector2.png')
+        background-repeat: no-repeat
+        background-position: center
+        text-align: center
+        position: relative
+        display: flex
+        justify-content: center
+        &-title
+            color: #434343
+            font-size: 35px
+            font-weight: bold
+            line-height: 1
+        &::after
+            content: ''
+            width: 111px
+            height: 2px
+            background-color: #808369
+            position: absolute
+            bottom: -40px
+    &__descr
+        color: #808369
+        font-size: 14px
+        font-weight: bold
+        text-transform: uppercase
+    &__caption
+        text-transform: uppercase
+        color: #808369
+        font-weight: bold
+        font-size: 14px
+.pageOther
+    &__top
+        background-image: url('../img/vectors/vector.png')
+        background-repeat: no-repeat
+        background-position: center
+        text-align: center
+        position: relative
+        display: flex
+        justify-content: center
+        &-title
+            color: #ffffff
+            font-size: 35px
+            font-weight: bold
+            line-height: 1
+        &::after
+            content: ''
+            width: 111px
+            height: 2px
+            background-color: #a7a99a
+            position: absolute
+            bottom: -40px
+    &__caption
+        color: #ffffff
+        font-size: 14px
+        font-weight: bold
+        text-transform: uppercase

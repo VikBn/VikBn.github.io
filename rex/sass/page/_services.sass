@@ -1,0 +1,40 @@
+.services
+    &__wrapper
+        padding: 105px 0
+    &__inner
+        margin: 140px 0 15px 0
+    &__img
+        width: 100%
+    &__item
+        &-left
+            text-align: right
+        &-right
+            text-align: left
+    &__title
+        color: $color
+        font-size: 18px
+        font-weight: bold
+        text-transform: uppercase
+        position: relative
+        &-left
+            &::before
+                content: ''
+                width: 111px
+                height: 2px
+                background-color: #a7a99a
+                position: absolute
+                right: 0
+                bottom: -20px
+        &-right
+            &::after
+                content: ''
+                width: 111px
+                height: 2px
+                background-color: #a7a99a
+                position: absolute
+                left: 0
+                bottom: -20px
+    &__descr
+        color: #929292
+        font-size: 13px
+        margin: 50px 0

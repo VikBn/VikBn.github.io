@@ -1,0 +1,49 @@
+.contact
+    &__wrapper
+        padding: 110px 0
+        background: #f3f1ec
+        position: relative
+    &__forms
+        padding: 100px 0 0 0
+    &__input
+        height: 65px
+        padding-left: 40px
+        &::placeholder
+            font-size: 14px
+            color: $color
+            font-weight: bold
+    &__form-wrap
+        display: flex
+        justify-content: space-between
+    &__textarea
+        width: 100%
+        border: 1px solid #ced4da
+        border-radius: 5px
+        resize: unset
+        padding: 25px 0 0 40px
+        &::placeholder
+            font-size: 14px
+            color: $color
+            font-weight: bold
+            transition: color .4s ease-out
+
+
+
+    &__round
+        width: 80px
+        height: 80px
+        border-radius: 50%
+        background: #fff
+        font-size: 12px
+        color: $color
+        font-weight: bold
+        padding-top: 15px
+        position: absolute
+        bottom: -40px
+        cursor: pointer
+        left: 47%
+        transition: all .3s
+        &:hover
+            transition: all .3s
+    &__fa
+        transform: rotate(180deg)

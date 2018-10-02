@@ -1,0 +1,70 @@
+.menu
+    &__wrapper
+        background: #f3f1ec
+        padding: 250px 0 120px 0
+    &__inner
+        margin: 70px 0 0 0
+    &__item
+        width: 23%
+        background: #fff
+        padding: 15px 15px 0 15px
+        position: relative
+        transition: all .2s
+        overflow: hidden
+        & img
+            width: 100%
+        &:hover
+            transition: all .2s
+    &__layer
+        width: 100%
+        height: 75%
+        position: absolute
+        background: gray
+        left: 0
+        bottom: 0
+        font-family: $yellow
+        color: #fff
+        font-size: 25px
+        transform: translateY(100%)
+        z-index: 2
+        opacity: .9
+        transition: all .5s
+        &-active
+            transform: translateY(-15%)
+            transition: all .5s
+    &__title
+        background: linear-gradient(to top,#fff, #f3f1ec)
+        margin: 15px 0 0 0
+        padding: 15px 0 10px 0
+        text-align: center
+        color: #808369
+        text-transform: uppercase
+    &__subtl
+        color: #808369
+        font-size: 20px
+        font-weight: bold
+        margin: 55px 0
+    &__round
+        margin: 0 auto
+        width: 40px
+        height: 40px
+        cursor: pointer
+        transform: translateY(50%)
+        padding-bottom: 7px
+        border-radius: 50%
+        background: #f3f1ec
+        transition: all .3s
+        &:hover
+            transition: all .3s
+            box-shadow: 0 0 10px rgba(0,0,0,0.5)
+        &:hover .menu__fa
+            transition: all .5s
+            font-size: 15px
+    &__fa
+        color: #808369
+        font-size: 18px
+        transition: all .3s
+        &-active
+            transition: all .5s
+            font-size: 20px
+            transform: rotate(180deg)

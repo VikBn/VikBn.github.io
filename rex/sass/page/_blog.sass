@@ -1,0 +1,41 @@
+.blog
+    &__wrapper
+        padding: 110px 0
+    &__row
+        margin: 100px 0 70px 0
+    &__picture
+        height: 198px
+        background-position: center
+        background-size: cover
+        &-left
+            background-image: url('../img/blog/b1.png')
+        &-middle
+            background-image: url('../img/blog/b2.png')
+        &-right
+            background-image: url('../img/blog/b3.png')
+    &__date
+        color: #808369
+        font-size: 14px
+        font-weight: bold
+        text-transform: uppercase
+        margin-top: 35px
+    &__title
+        color: #434343
+        line-height: 1.5
+        cursor: pointer
+        font-size: 22px
+        font-weight: bold
+        &::after
+            content: ''
+            width: 111px
+            height: 2px
+            background-color: #a7a99a
+            position: absolute
+            left: 35%
+            bottom: -25px
+    &__item
+        transition: all .2s
+        padding-top: 15px
+        &:hover
+            transition: all .2s
+            box-shadow: 0 0 10px rgba(0,0,0,0.5)

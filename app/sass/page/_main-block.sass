@@ -1,0 +1,181 @@
+.page
+  font-family: 'helveticaneuecyrroman'
+  // font-family: 'helveticaneuecyrthin'
+  // font-family: 'helveticaneuecyrmedium'
+  font-size: 16px
+
+.page__wrap
+  background-color: #f3f3f3
+  width: 100%
+  height: 100vh
+
+a:hover
+  text-decoration: none
+.dflex-center
+  display: flex
+  justify-content: space-between
+  align-items: center
+  // flex-wrap: wrap
+.dflex
+  display: flex
+  justify-content: space-between
+  align-items: flex-start
+  flex-wrap: wrap
+
+p, a, h1, h2, h3, div
+  padding: 0
+  margin: 0
+
+.container
+  width: 1300px
+
+.active
+  color: #4fb748
+
+.translucent
+  color: #c5c5c5 !important
+  opacity: .7
+
+.pag
+  &__wrapper
+    margin: 16px auto
+    display: none
+
+  &__container
+    margin: 0 auto
+    background-color: #fff
+    border-radius: 5px
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 0 1px 0 rgba(0, 0, 0, 0.12)
+  &__inner
+    display: flex
+    justify-content: space-between
+    max-width: 75%
+    margin: 0 auto
+    padding: 16px 0 24px
+
+  &__link
+    color: #c5c5c5
+    font-weight: bold
+    font-size: 1.125rem
+    &-active
+      color: #000
+  &__nav
+    display: flex
+    justify-content: space-between
+    max-width: 65%
+    margin-left: 110px
+  &__round
+    width: 30px
+    height: 30px
+    border-radius: 50%
+    background-color: #69be28
+  &__item
+    text-align: center
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+    width: calc(100%/3)
+  &__round
+    width: 100%
+    height: 30px
+    border-radius: 50%
+    position: relative
+  &__round::after
+    position: absolute
+    content: ''
+    width: 44%
+    height: 3px
+    bottom: 12px
+    background-color: #69be28
+    left: 56%
+    z-index: 1
+  &__round::before
+    position: absolute
+    content: ''
+    width: 44%
+    height: 3px
+    bottom: 12px
+    background-color: #69be28
+    right: 56%
+    z-index: 1
+  &__round:first-child
+    content: ''
+    display: none
+  &__round-active
+    width: 30px
+    height: 30px
+    line-height: 29px
+    border: 2px solid #69be28
+    border-radius: 50%
+    color: #69be28
+    background-color: #fff
+  &__round-active
+    display: inline-block
+    padding: 0
+    margin: 0
+    font-weight: bold
+  &__item:first-child .content__round::before
+    display: none
+  &__item:last-child .content__round::after
+    display: none
+  &__round img
+    max-height: 30px
+    display: inline-block
+.line-pag
+  position: relative
+  text-align: center
+  z-index: 3
+
+.main
+  &__wrapper
+    background-color: #f3f3f3
+  &__container
+    margin: 15px auto 0 auto
+    width: 1300px
+    flex-wrap: nowrap
+
+.confirmation
+  width: 100%
+  margin: 8px 16px
+  display: none
+
+.confirmation-btn
+  color: #fff
+  background-color: #f00085
+  font-size: .87rem
+  font-weight: bold
+  line-height: 1.71
+  padding: 10px 0 14px
+  border: none
+.confirmation
+  width: 100%
+  margin: 8px 16px
+  display: none
+.confirmation-btn
+  color: #fff
+  background-color: #f00085
+  font-size: .87rem
+  font-weight: bold
+  line-height: 1.71
+  padding: 10px 0 14px
+  border: none
+.conf__wrapper
+    margin: 16px 16px 0 16px
+.conf__btn
+    width: 100%
+    display: block
+    text-align: center
+    background-color: #f00085
+    color: white
+    font-family: 'helveticaneuecyrbold'
+    padding: 10px 0
+    border-radius: 4px
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), inset 0 -2px 0 0 rgba(163, 0, 90, 0.32)
+    transition: .3s all
+    font-size: .87rem
+.conf__btn:hover
+    background-color: #4fb748
+    color: #fff
+    transition: .3s all
+.fade__lg
+    display: none

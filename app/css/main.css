@@ -463,7 +463,8 @@ p, a, h1, h2, h3, div {
 
 .sidebar__confirm-btn:hover {
   background-color: #4fb748;
-  color: #fff; }
+  color: #fff;
+  transition: all .3s;}
 
 .sidebar__confirm-btn:active {
   outline: none; }

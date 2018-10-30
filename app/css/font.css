@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
     font-family: 'helveticaneuecyrblack';
     src: url('../font/helveticaneuecyr-black-webfont.woff2') format('woff2'),
@@ -54,3 +55,61 @@
     font-style: normal;
 
 }
+=======
+@font-face {
+    font-family: 'helveticaneuecyrblack';
+    src: url('../font/helveticaneuecyr-black-webfont.woff2') format('woff2'),
+         url('../font/helveticaneuecyr-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'helveticaneuecyrbold';
+    src: url('../font/helveticaneuecyr-bold-webfont.woff2') format('woff2'),
+         url('../font/helveticaneuecyr-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'helveticaneuecyrmedium';
+    src: url('../font/helveticaneuecyr-medium-webfont.woff2') format('woff2'),
+         url('../font/helveticaneuecyr-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'helveticaneuecyrroman';
+    src: url('../font/helveticaneuecyr-roman-webfont.woff2') format('woff2'),
+         url('../font/helveticaneuecyr-roman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'helveticaneuecyrthin';
+    src: url('../font/helveticaneuecyr-thin-webfont.woff2') format('woff2'),
+         url('../font/helveticaneuecyr-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+>>>>>>> 76ba4c167bd045e6be51585ebae5e009eb3dcb02

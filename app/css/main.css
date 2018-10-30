@@ -817,6 +817,7 @@ select[disabled] {
 
 
 @media screen and (-webkit-min-device-pixel-ratio:0){
+  .sidebar__select-block::after,
   .sidebar__select-block::before {
     display: none;
   }

@@ -821,4 +821,8 @@ select[disabled] {
   .sidebar__select-block::before {
     display: none;
   }
+  
+  .content__delivery-tel {
+    color: #626f77;
+  }
 }

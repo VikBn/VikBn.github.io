@@ -83,7 +83,7 @@
   }
 
   .content__bottom-text {
-    width: 65%;
+    width: 67%;
   }
 }
 
@@ -93,4 +93,29 @@
 
 @media (min-width: 1281px) and (max-width: 1440px) {
 
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-family: 'Rockwell MT';
+  opacity: 0.5;
+  font-size: 18px;
+  color: rgba(91, 91, 91, 0.19);
+}
+::-moz-placeholder { /* Firefox 19+ */
+  font-family: 'Rockwell MT';
+  opacity: 0.5;
+  font-size: 18px;
+  color: rgba(91, 91, 91, 0.19);
+}
+:-ms-input-placeholder { /* IE 10+ */
+  font-family: 'Rockwell MT';
+  opacity: 0.5;
+  font-size: 18px;
+  color: rgba(91, 91, 91, 0.19);
+}
+:-moz-placeholder { /* Firefox 18- */
+  font-family: 'Rockwell MT';
+  opacity: 0.5;
+  font-size: 18px;
+  color: rgba(91, 91, 91, 0.19);
 }

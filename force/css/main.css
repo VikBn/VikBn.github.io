@@ -6,7 +6,8 @@
 
 .page__wrap {
   background-color: #ada6a0;
-  width: 100%; }
+  width: 100%;
+  overflow-x: hidden; }
 
 a:hover {
   text-decoration: none; }
@@ -122,6 +123,9 @@ img {
   background-color: #ffffff;
   padding: 12px 12px 9px; }
 
+.content__top img {
+  width: 100%; }
+
 .content__blog {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -191,14 +195,13 @@ img {
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.75);
     background-color: #ffffff;
     padding: 22px 22px 20px; }
-  .footer__content {
-    width: 50%; }
   .footer__link, .footer .footer__descr {
     font-family: Calibri;
     font-size: 14px;
     text-align: justify;
-    color: #545454; }
-
+    color: #545454;
+    margin-right: 15px;
+    white-space: nowrap; }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   font-family: 'Rockwell MT';

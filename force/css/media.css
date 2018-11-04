@@ -1,9 +1,6 @@
 @media (max-width: 551px) {
-  .container {
-    width: 284px;
-  }
+  .container,
   .header__item,
-  .footer__content,
   .content__bottom-text,
   .content__blog-item {
     width: 100%;
@@ -15,14 +12,24 @@
 
   .header__inner {
     padding: 20px;
+    margin: 0 15px;
   }
 
   .header__link {
     font-size: 16px;
   }
 
+  .footer__inner,
+  .main__inner {
+    margin: 0 15px;
+  }
+
   .content__bottom-photo {
     width: 100%;
+    text-align: center;
+  }
+
+  .content__bottom-title {
     text-align: center;
   }
 
@@ -34,11 +41,8 @@
 
 
 @media (min-width: 552px) and (max-width: 767px) {
-  .container {
-    width: 502px;
-  }
-  .header__item,
-  .footer__content {
+  .container,
+  .header__item {
     width: 100%;
   }
 
@@ -48,6 +52,12 @@
 
   .header__inner {
     padding: 20px 34px;
+    margin: 0 15px;
+  }
+
+  .footer__inner,
+  .main__inner {
+    margin: 0 15px;
   }
 
   .content__blog-item {
@@ -57,15 +67,22 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
   .container {
-    width: 710px;
+    width: 100%;
+  }
+  .header__inner {
+    margin: 0 15px;
+  }
+
+  .footer__inner,
+  .main__inner {
+    margin: 0 15px;
   }
 
   .content__bottom-photo {
     width: 33%;
   }
 
-  .content__bottom-text,
-  .footer__content {
+  .content__bottom-text {
     width: 65%;
   }
 }

@@ -1,0 +1,200 @@
+.page {
+  font-family: 'Rockwell MT';
+  font-size: 16px;
+  margin: 0;
+  padding: 0; }
+
+.page__wrap {
+  background-color: #ada6a0;
+  width: 100%; }
+
+a:hover {
+  text-decoration: none; }
+
+.dflex {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.align-center {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.justify-space-between {
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.dflex-center {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+
+.dflex-between {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+
+p, a, h1, h2, h3, div {
+  padding: 0;
+  margin: 0; }
+
+div {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  width: 928px;
+  margin: 0 auto; }
+
+input:focus {
+  outline: none; }
+
+img {
+  max-width: 100%; }
+
+.logo__img {
+  background-image: radial-gradient(circle, #fff, #ada6a0, #ada6a0);
+  text-align: center;
+  padding: 44px 0 14px; }
+
+.header {
+  margin-bottom: 15px; }
+  .header__inner {
+    padding: 20px 14px 20px 48px;
+    background-color: #fff;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.75); }
+  .header__item {
+    width: 49.99%; }
+  .header__item:first-child {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .header__link {
+    font-size: 18px;
+    color: #5b5b5b;
+    transition: all .3s; }
+  .header__link:hover {
+    color: blue;
+    transition: all .3s; }
+  .header__search-container {
+    text-align: right;
+    position: relative; }
+  .header__search-container::after {
+    content: url("../img/svg/magnifying-glass.svg");
+    position: absolute;
+    right: 13px;
+    top: 7px; }
+  .header__search-container input {
+    width: 60%;
+    font-family: 'Rockwell MT';
+    color: #5b5b5b;
+    border: solid 1px rgba(205, 205, 205, 0.38);
+    background-color: #fafafa;
+    padding: 10px 12px 10px 16px; }
+
+.content__top {
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.75);
+  background-color: #ffffff;
+  padding: 12px 12px 9px; }
+
+.content__blog {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-bottom: 15px; }
+  .content__blog-item {
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.75);
+    background-color: #ffffff;
+    width: 24%;
+    padding: 15px 12px 22px;
+    margin-top: 15px; }
+  .content__blog-text {
+    margin: 24px 0 30px; }
+  .content__blog-item img {
+    width: 100%; }
+
+.content__link {
+  text-align: right; }
+
+.content__link a {
+  font-size: 12px;
+  text-decoration: underline;
+  color: #000000;
+  transition: all .3s; }
+
+.content__link a:hover {
+  color: blue;
+  transition: all .3s; }
+
+.content__bottom {
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.75);
+  background-color: #ffffff;
+  padding: 12px 12px 15px; }
+  .content__bottom-photo {
+    width: 25%; }
+  .content__bottom-text {
+    width: 75%; }
+  .content__bottom-title {
+    font-size: 18px;
+    text-align: justify;
+    color: #000000;
+    margin-bottom: 18px; }
+  .content__bottom-img img:first-child {
+    margin-right: 3px; }
+  .content__bottom-img:first-child {
+    margin-bottom: 3px; }
+
+.content__descr {
+  font-size: 12px;
+  text-align: justify;
+  line-height: 1.5;
+  text-indent: 3.5em;
+  color: #343433; }
+
+.footer {
+  margin: 15px 0 118px; }
+  .footer__inner {
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.75);
+    background-color: #ffffff;
+    padding: 22px 22px 20px; }
+  .footer__content {
+    width: 50%; }
+  .footer__link, .footer .footer__descr {
+    font-family: Calibri;
+    font-size: 14px;
+    text-align: justify;
+    color: #545454; }

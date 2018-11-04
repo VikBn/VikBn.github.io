@@ -1,0 +1,116 @@
+@media (max-width: 551px) {
+  .container {
+    width: 284px;
+  }
+  .header__item {
+    width: 100%;
+  }
+
+  .header__search-container {
+    display: none;
+  }
+
+  .header__inner {
+    padding: 20px;
+  }
+
+  .header__link {
+    font-size: 16px;
+  }
+
+  .content__bottom-text,
+  .content__blog-item {
+    width: 100%;
+  }
+
+  .content__bottom-photo {
+    width: 100%;
+    text-align: center;
+  }
+  .content__bottom-text {
+    margin-top: 15px;
+  }
+
+  .footer__content {
+    width: 100%;
+  }
+
+  .footer .footer__descr {
+    margin-top: 15px;
+  }
+}
+
+
+@media (min-width: 552px) and (max-width: 767px) {
+  .container {
+    width: 502px;
+  }
+  .header__item {
+    width: 100%;
+  }
+
+  .header__search-container {
+    display: none;
+  }
+
+  .header__inner {
+    padding: 20px 34px;
+  }
+
+  .content__blog-item {
+    width: 49%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 710px;
+  }
+
+  .content__bottom-photo {
+    width: 33%;
+  }
+
+  .content__bottom-text,
+  .footer__content {
+    width: 65%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1280px) {
+  .container {
+
+  }
+}
+
+@media (min-width: 1281px) and (max-width: 1440px) {
+  .container {
+
+  }
+
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-family: 'Rockwell MT';
+  opacity: 0.5;
+  font-size: 18px;
+  color: rgba(91, 91, 91, 0.19);
+}
+::-moz-placeholder { /* Firefox 19+ */
+  font-family: 'Rockwell MT';
+  opacity: 0.5;
+  font-size: 18px;
+  color: rgba(91, 91, 91, 0.19);
+}
+:-ms-input-placeholder { /* IE 10+ */
+  font-family: 'Rockwell MT';
+  opacity: 0.5;
+  font-size: 18px;
+  color: rgba(91, 91, 91, 0.19);
+}
+:-moz-placeholder { /* Firefox 18- */
+  font-family: 'Rockwell MT';
+  opacity: 0.5;
+  font-size: 18px;
+  color: rgba(91, 91, 91, 0.19);
+}

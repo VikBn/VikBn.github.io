@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Rockwell MT';
+    src: url('../font/RockwellMT.woff2') format('woff2'),
+        url('../font/RockwellMT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

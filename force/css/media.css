@@ -35,7 +35,7 @@
     width: 100%;
   }
 
-  .footer .footer__descr {
+  .footer__descr {
     margin-top: 15px;
   }
 }
@@ -59,6 +59,10 @@
 
   .content__blog-item {
     width: 49%;
+  }
+
+  .footer__content {
+    width: 100%;
   }
 }
 

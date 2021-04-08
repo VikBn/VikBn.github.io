@@ -1,0 +1,71 @@
+.output {
+    position: relative;
+    background-color: antiquewhite;
+    z-index: 1;
+}
+.hidden_input {
+    z-index: -1;
+}
+
+.button_container {
+    align-items: center;
+    display: flex;
+    margin-top: 24px;
+}
+
+.main_button {
+    border-radius: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-right: 16px;
+    padding: 16px 24px;
+    text-align: center;
+}
+
+.convert_button {
+    background: linear-gradient(#4f9f9c, #779faa);
+}
+
+.convert_button:hover {
+    background: linear-gradient(#779faa, #4f9f9c);
+    transition: all 1s ease-out;
+}
+
+.copy_button {
+    background: linear-gradient(#779faa, #4f9f9c);
+}
+
+.copy_button:hover {
+    background: linear-gradient(#4f9f9c, #779faa);
+    transition: all 1s ease-out;
+}
+
+.clear_button {
+    background: burlywood;
+}
+
+.container_main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.count_container {
+    margin-top: 24px;
+}
+
+.player_container {
+    display: flex;
+}
+
+.convert_textarea {
+    margin: 0 auto;
+    width: 45%;
+}
+
+.output_wrapper {
+    margin-top: 24px;
+}
+
+.text_tag {
+    color: crimson;
+}
